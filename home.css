@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    
+    
+
+}
+header
+{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(c.jpeg);
+    background-position: center;
+    background-size:cover;
+    background-position: center;
+    
+}
+.button
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn 
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+.btn:hover
+{
+    color: black;
+    background-color: white;
+    transition: 0.6f ease-in;
+
+}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+ul li
+{
+    display: inline-block;
+    
+}
+ul li a
+{
+    text-decoration: none;
+    
+    color: white;
+    padding: 5px 20px;
+    border: 1px double  white;
+    font-weight: bold;
+}
+ul li a:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+ul li.active a
+{
+    background-color: white;
+    color: black;
+    
+}
+.title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1
+{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    border: double;
+}
+.logo img
+{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main
+{
+    max-width: 1200px;
+    margin:auto;
+}

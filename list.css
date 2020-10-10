@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    color: white;
+    background-color: black;
+   
+
+}
+header
+{
+    height: 100vh;
+    background-color: black;
+    background-position: center;
+    background-size:cover;
+    background-position: center;
+    
+}
+table, th, td {
+    border: 1px  double white;
+    border-collapse: collapse;
+    padding: 15px;
+    
+  }
+  th {
+    text-align: left;
+    outline: double;
+    background-color: yellowgreen;
+  }
+
+  table {
+    border-spacing: 5px;
+
+    margin-top:3cm;
+    width: 50%;
+    height: auto;
+    
+  }
+  
+.body h1
+{
+    margin-top: 3px;
+}
+.why h1
+{
+    margin-top: 3px;
+}
+.body p
+{
+    margin-top: 15px;
+    text-indent: 2cm;
+   
+    
+}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    
+    
+}
+ul li
+{
+    display: inline-block;
+    
+
+    
+}
+ul li a
+{
+    text-decoration: none;
+    
+    color: white;
+    padding: 5px 20px;
+    border: 1px double  white;
+    font-weight: bold;
+}
+ul li a:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+ul li.active a
+{
+    background-color: white;
+    color: black;
+
+    
+}
+
+
+
+.main
+{
+    max-width: 1200px;
+    margin:auto;
+}

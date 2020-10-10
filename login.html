@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Login</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="faisi">  
+        <div class="formbox" >
+            <div class="icons">
+                <img src="f.png">
+                <img src="i.png">
+                <img src="g.jpg">
+                 </div>
+            <div class="button">
+                <div id="btn">
+                     </div>
+                <button type="button" class="toggle-btn" onclick="login()">login</button>
+                <button type="button " class="toggle-btn" onclick="register()">signup</button>
+            </div>
+            <form id="login" class="input-form">
+                <input type="text" name="username" class="textfield"placeholder="Email"required>
+                <input type="password" name="password"  class="textfield"placeholder="Password"required>
+                <input type="checkbox" class="check-box"><span>Remember password</span>
+                <button type="submit" class="submit-btn"  onclick= "checking()">Log In</button>
+            </form>
+            <form id="register" class="input-form">
+                <input type="text" class="textfield"placeholder="Email"required>
+                <input type="text" class="textfield"placeholder="User-Id"required>
+                <input type="password" class="textfield"placeholder="Password"required>
+                <input type="text" class="textfield"placeholder="retype password"required>
+                <input type="checkbox" class="check-box"><span>i agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn" onclick="heck()">Register</button>
+            </form>
+           
+
+        </div>
+       
+    </div>
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("register");
+        var z=document.getElementById("btn");
+        var pas=document.getElementsByName("password").values;
+        function register()
+        {
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+
+        }
+        function login()
+        {
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+
+        }
+        function checking()
+        {
+            alert("logged in successfully");
+            close("login.html");
+            open("home.html");
+        }
+        function heck()
+        {
+            alert("signed up successfully");
+        }
+       
+    </script>
+
+    
+</body>
+</html>

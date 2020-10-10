@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    color: white;
+    
+
+}
+header
+{
+    height: 100vh;
+    background-color: black;
+    background-position: center;
+    background-size:cover;
+    background-position: center;
+    
+}
+.body h1
+{
+    margin-top: 3px;
+}
+.why h1
+{
+    margin-top: 3px;
+}
+.body p
+{
+    margin-top: 15px;
+    text-indent: 2cm;
+   
+    
+}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    
+    
+}
+ul li
+{
+    display: inline-block;
+    
+
+    
+}
+ul li a
+{
+    text-decoration: none;
+    
+    color: white;
+    padding: 5px 20px;
+    border: 1px double  white;
+    font-weight: bold;
+}
+ul li a:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+ul li.active a
+{
+    background-color: white;
+    color: black;
+
+    
+}
+
+
+
+.main
+{
+    max-width: 1200px;
+    margin:auto;
+}
+.container  {
+
+    background-color: black;
+    color: white;
+    position:relative center;
+    
+    border-radius: 5px;
+    padding: 20px;
+    border: double;
+    border: white;
+    
+  }
+  .main img
+  {
+      width: 100%;
+      position:  0 0 0 0;
+      height: 4cm;
+  }
+  .body img{
+    border-radius: 5px;
+    padding: 20px;
+    border: double;
+    border: white;
+      
+  }
+  footer {
+      margin-top: ;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color:brown;
+    color: white;
+    text-align: center;
+}
+  .why{
+      background-color: black;
+  }
+  .why img{
+    border-radius: 5px;
+    padding: 20px;
+    border: double;
+    border: white;
+    max-width: 20%;
+    height: auto;
+    margin-left: 60px;
+      
+  }
