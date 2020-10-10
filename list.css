@@ -3,19 +3,30 @@
     margin: 0;
     padding: 0;
     font-family:sans-serif;
-    color: white;
-    background-color: black;
+    background-color: blueviolet;
+    
    
 
 }
 header
 {
     height: 100vh;
-    background-color: black;
+    
     background-position: center;
     background-size:cover;
     background-position: center;
     
+    
+}
+footer {
+    margin-top:3cm ;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color:brown;
+  color: white;
+  text-align: center;
 }
 table, th, td {
     border: 1px  double white;
@@ -28,29 +39,25 @@ table, th, td {
     outline: double;
     background-color: yellowgreen;
   }
-
+.table{
+    background-color: black;
+}
   table {
     border-spacing: 5px;
 
     margin-top:3cm;
     width: 50%;
     height: auto;
+    background-color: black;
     
   }
   
-.body h1
-{
-    margin-top: 3px;
-}
-.why h1
-{
-    margin-top: 3px;
-}
+
 .body p
 {
     margin-top: 15px;
     text-indent: 2cm;
-   
+  
     
 }
 ul
@@ -58,6 +65,7 @@ ul
     float: right;
     list-style-type: none;
     margin-top: 10px;
+    
     
     
 }
@@ -97,4 +105,6 @@ ul li.active a
 {
     max-width: 1200px;
     margin:auto;
+    background-color: blueviolet;
+    
 }

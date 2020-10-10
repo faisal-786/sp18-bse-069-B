@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color: white;
+    color: black
 }
 .h1
 {
@@ -10,6 +10,16 @@
     text-align: center;
     font-size: 40px;
     
+}
+footer {
+    margin-top: ;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color:brown;
+  color: white;
+  text-align: center;
 }
 .faisi
 {
@@ -85,6 +95,7 @@
     width: 280px;
     position: absolute;
     transition: .5s;
+    
 }
 .textfield
 {
